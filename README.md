@@ -19,15 +19,15 @@ A proposta foi criar um **formulário de cadastro completo**, com validações r
 
 ## ⚙️ Funcionalidades
 
-✔️ Validação de campos obrigatórios (não permite envio vazio)
-✔️ Campo **Nome e Sobrenome** aceita apenas letras (com ou sem acento)
-✔️ Campo **Usuário** permite apenas letras e números (sem símbolos)
-✔️ Controle de **tamanho mínimo e máximo** para usuário e senha
-✔️ Validação de **confirmação de senha**
-✔️ Integração de **validador de CPF**
-✔️ Máscara automática no CPF durante a digitação
-✔️ Bloqueio de envio caso o CPF seja inválido
-✔️ Armazenamento dos dados no **LocalStorage** após envio válido
+*✔️ Validação de campos obrigatórios (não permite envio vazio)
+*✔️ Campo **Nome e Sobrenome** aceita apenas letras (com ou sem acento)
+*✔️ Campo **Usuário** permite apenas letras e números (sem símbolos)
+*✔️ Controle de **tamanho mínimo e máximo** para usuário e senha
+*✔️ Validação de **confirmação de senha**
+*✔️ Integração de **validador de CPF**
+*✔️ Máscara automática no CPF durante a digitação
+*✔️ Bloqueio de envio caso o CPF seja inválido
+*✔️ Armazenamento dos dados no **LocalStorage** após envio válido
 
 ---
 
