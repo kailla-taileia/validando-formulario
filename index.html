@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/validaCPF.js"></script>
+    <script src="./assets/script.js"></script>
+</head>
+<body>
+       <section>
+        <h1>Formulário de Cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>usuário deverá ter entre 3 a 14 caracteres</li>
+            <li>Senha deverá ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form action="">
+            
+            <label for="nome" class="label">
+                <p>Nome:</p>
+                <input type="text" name="nome" id="nome" class="inputBox onlyLetter">
+            </label>
+
+            <label for="sobrenome" class="label">
+                <p>Sobrenome:</p>
+                <input type="text" name="sobrenome" id="sobrenome" class="inputBox onlyLetter">
+            </label>
+
+            <label for="cpf" class="label">
+                <p>CPF:</p>
+                <input type="text" name="cpf" id="cpf" class="inputBox cpf">
+            </label>
+
+            <label for="usuario" class="label">
+                <p>usuario:</p>
+                <input type="text" name="usuario" id="user" class="inputBox limitLength user">
+            </label>
+
+            <label for="senha" class="label">
+                <p>Senha:</p>
+                <input type="password" name="senha" id="senha" class="inputBox limitLength password keyPass">
+            </label>
+
+            <label for="Repetir_Senha" class="label">
+                <p>Repetir Senha:</p>
+                <input type="password" name="Repetir Senha" id="repeatSen" class="inputBox limitLength password repeatPass">
+            </label>
+
+            <button id="botaoSubmit">Enviar</button>
+
+
+        </form>
+       </section> 
+</body>
+</html>
